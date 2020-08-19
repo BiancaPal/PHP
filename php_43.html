@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      ARRAY FORM FOREACH
+    </title>
+    <style>
+    
+      form {
+        font-family: arial, sans-serif;
+        max-width: 300px;
+      }
+      label, input {
+        display: block;
+        width: 100%;
+        margin: 5px 0;
+        padding: 5px;
+        box-sizing: border-box;
+      }
+      input[type=submit] {
+        background: #305ba0;
+        color: #fff;
+        border: 0;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <form method="post" action="php_43.php">
+      <label>ARRAY FORM</label>
+      <input type="text" name="noms[]" />
+      <input type="text" name="noms[]" />
+      <input type="text" name="noms[]"/>
+      <input type="text" name="noms[]"/>
+ 
+      <input type="submit" value="Submit"/>
+    </form>
+  </body>
+</html>
